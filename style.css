@@ -59,6 +59,18 @@
   -webkit-hyphens: auto;
 }
 
+#header p.wtf code {
+  display: inline-block;
+  padding: 0 5px;
+  font-family: monospace;
+  background: rgba(255, 255, 255, .15);
+  border-radius: 3px;
+}
+
+#header p.wtf a {
+  color: #fff;
+}
+
 #header .button {
   display: block;
   width: 300px;
