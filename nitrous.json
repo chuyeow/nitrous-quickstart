@@ -2,7 +2,10 @@
   "template": "html5",
   "ports": [3000],
   "scripts": {
-    "restart-server": "sudo service nginx restart"
+    "restart-server": "echo 'restart-server' >> /home/nitrous/start.log.txt",
+    "start": "echo 'started' >> /home/nitrous/start-log.txt",
+    "stop": "echo 'started' >> /home/nitrous/stop-log.txt",
+    "Echo yo": "echo 'yo' >> /home/nitrous/yo.log"
   }
 }
 
